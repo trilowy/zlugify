@@ -14,7 +14,7 @@ _zlugify_ is a library to generate slugs from all types of UTF-8 encoded strings
 
 ## Versions
 
-zlugify 1.1.0 is made and tested with zig 0.14.0.
+zlugify 1.2.0 is made and tested with zig 0.15.2.
 
 ## How to use
 
@@ -23,7 +23,7 @@ zlugify 1.1.0 is made and tested with zig 0.14.0.
 In your project directory:
 
 ```shell
-$ zig fetch --save https://code.zeptotech.net/zedd/zlugify/archive/v1.1.0.tar.gz
+$ zig fetch --save git+https://github.com/trilowy/zlugify.git#main
 ```
 
 In `build.zig`:

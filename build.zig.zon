@@ -1,13 +1,15 @@
 .{
     .name = .zlugify,
-    .version = "1.1.0",
+    .version = "1.2.0",
 
     .fingerprint = 0x60f9ca2959523881,
 
+    .minimum_zig_version = "0.15.2",
+
     .dependencies = .{
         .anyascii = .{
-            .url = "https://code.zeptotech.net/zedd/anyascii.zig/archive/v1.2.0.tar.gz",
-            .hash = "anyascii-1.2.0-rvK7q3iGFABchFPwDMdB5tpj716jR3mukBiuMT-PdD5-",
+            .url = "git+https://github.com/trilowy/anyascii.zig?ref=main#3a1fcca8f9b5ccb52df60732bcad8240c071a188",
+            .hash = "anyascii-1.3.0-rvK7q-CHFABm5nHp0tHKmRlocT6WxdRO93gDdLjtmzbN",
         },
     },
 
